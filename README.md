@@ -15,3 +15,12 @@ wcat - a program to implement the function of the cat command
                 // contents of example.c are here
             }
 
+wget - a progra to implement grep (with limited functionality)
+     - takes a search string and an input file, prints all lines containing an occurrence of the search string
+     - if no input file is specified, accepts input from stdin
+
+     usage: > ./wgrep foo input.txt
+
+            This is a line from input.txt that has foo in it!
+            This line has foo as well
+
