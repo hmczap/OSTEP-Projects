@@ -24,3 +24,7 @@ wget - a progra to implement grep (with limited functionality)
             This is a line from input.txt that has foo in it!
             This line has foo as well
 
+wzip/wunzip - run length encoding (RLE)-based compression and decompression
+            - run length is represented by an integer (4 bytes) in binary format, followed by the accompanying character in ASCII
+            - wzip uses shell (output) redirection into the target file
+            
