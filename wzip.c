@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
   dest = fopen(argv[2], "w");
 
   if (fp == NULL || errno != 0) {
-    printf("wzip: cannot open specified file(s)");
+    perror("wzip: cannot open specified file(s)");
     exit(1);
   }
   while (fgets(buffer, 128, fp); != NULL) {
